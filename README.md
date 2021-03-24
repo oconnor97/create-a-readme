@@ -1,4 +1,4 @@
-# khasd
+# kasd
   ## Table of Contents
    * Description
    * Technologies
@@ -10,7 +10,7 @@
   
   
   ## Description 
-   * jkbasd
+   * kasd
   
   
   ## Technologies 
@@ -23,12 +23,12 @@
   
   ## Licenses 
   
-   * Apache-2.0
-   * ![badge](https://img.shields.io/badge/license-Apache-2.0-brightgreen)
+   * MIT
+   * [![badge](https://img.shields.io/badge/license-MIT-brightgreen)](https://opensource.org/licenses/MIT)
   
   ## Instalation 
   
-  * To install the dependencies run lknas in the command line.
+  * To install the dependencies run kjas in the command line.
   * To run tests enter kjasd to the command line
   
   ## Usage
@@ -36,12 +36,12 @@
   
   
   ## Contributions 
-  kjasd
+  kjjhasd
   
   
   ## Support
   
-  If you have any questions contact lkasd, at kjasd or on github at https://github.com/lasd
+  If you have any questions contact lkjsad, at lkjhasd or on github at https://github.com/\asldas
   
   
   
