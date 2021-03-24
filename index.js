@@ -34,7 +34,7 @@ inquirer
             type: 'list',
             name: 'license',
             message: 'What kind of license is needed for this project?',
-            choices: ['MIT', 'Apache 2.0', 'GPL 3.0', 'BSD 3', 'None'],
+            choices: ['MIT', 'Apache-2.0', 'GPL-3.0', 'BSD-3', 'None'],
         },
         {
             type: 'input',
@@ -59,7 +59,6 @@ inquirer
     ])
 
 .then(data => {
-    console.log(data)
-    fs.writeFile('./README.md', generateMarkdown(data), (error) => { if (error) console.log('Oh No!', error) }
+    fs.writeFile('./README.md', generateMarkdown(data), (error) => error ? console.error(error) : console.log("Generating README!")
     );
 })
