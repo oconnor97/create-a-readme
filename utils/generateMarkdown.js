@@ -1,7 +1,7 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(data) {
-  return `![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)`
+  return `[![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)]`
   
 }
 
@@ -10,11 +10,11 @@ function renderLicenseBadge(data) {
 function renderLicenseLink(data) {
   if(data.license === 'MIT') {
     return '(https://opensource.org/licenses/MIT)'
-  } else if(data.license === 'Apache 3.0') {
+  } else if(data.license === 'Apache-3.0') {
     return '(https://opensource.org/licenses/Apache-2.0)'
-  } else if(data.license === 'GPL 3.0') {
+  } else if(data.license === 'GPL-3.0') {
     return '(https://www.gnu.org/licenses/gpl-3.0)'
-  } else if(data.license === 'BSD 3') {
+  } else if(data.license === 'BSD-3') {
     return '(https://opensource.org/licenses/BSD-3-Clause)'
   } else {return ''}
 }
@@ -51,7 +51,7 @@ function generateMarkdown(data) {
   ## Licenses 
   
    * ${data.license}
-   * ${renderLicenseBadge(data)}
+   * ${renderLicenseBadge(data)}${renderLicenseLink(data)}
   
   ## Instalation 
   
