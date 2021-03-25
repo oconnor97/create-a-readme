@@ -48,7 +48,7 @@ inquirer
         },
         {
             type: 'input',
-            name: 'userInfo',
+            name: 'information',
             message: 'What does the user need to know about using the repo?'
         },
         {

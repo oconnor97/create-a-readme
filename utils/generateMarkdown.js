@@ -75,7 +75,7 @@ function generateMarkdown(data) {
     * To run tests enter ${data.runTest} to the command line
   
   ## Usage
-    ${data.userIfo}
+    ${data.information}
   
   
   ## Contributions 
