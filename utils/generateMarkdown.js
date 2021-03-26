@@ -45,13 +45,13 @@ function renderLicenseSection(data) {
 function generateMarkdown(data) {
   return `# ${data.projectName}
   ## Table of Contents
-    * Description
-    * Technologies
-    * Licenses
-    * Installation
-    * Usage
-    * Constibutions
-    * Support
+    - [Description](#Description)
+    - [Technologies](#Technologies)
+    - [License](#License)
+    - [Installation](#Installation)
+    - [Usage](#Usage)
+    - [Contributions](#Contributions)
+    - [Support](#Support)
   
   
   ## Description 
@@ -70,7 +70,7 @@ function generateMarkdown(data) {
    ${renderLicenseSection(data)}
 
 
-  ## Instalation 
+  ## Installation 
   
     * To install the dependencies run ${data.commandInstall} in the command line.
     * To run tests enter ${data.runTest} to the command line
