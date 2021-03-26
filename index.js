@@ -57,11 +57,11 @@ inquirer
             message: 'What does the user need to know about contributing to the repo?'
         }
     ])
-    
+
     .then(writeFile)
-    
-    function writeFile(data) {
-        
-        fs.writeFile('./README.md', generateMarkdown(data), (error) => error ? console.error(error) : console.log("Generating README!")
-        );
-    }
+
+function writeFile(data) {
+
+    fs.writeFile('./README.md', generateMarkdown(data), (error) => error ? console.error(error) : console.log("Generating README!")
+    );
+}
