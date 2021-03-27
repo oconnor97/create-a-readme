@@ -3,6 +3,7 @@
 ## Description 
     The user can answer a series of prompts and will have a full README.md file created with their information.
 
+![README-gif](Assets/walkthroughVideo.gif)
 
 ## Licenses
     - MIT
