@@ -36,7 +36,7 @@ function renderLicenseSection(data) {
   } else {
     return `
   ## License 
-  * ${data.license}
+  * ${data.license}, to view License information click the badge below!
   * ${renderLicenseBadge(data)}${renderLicenseLink(data)}`
   }
 }
@@ -58,6 +58,9 @@ function generateMarkdown(data) {
     * ${data.description}
   
   
+  ${renderLicenseSection(data)}
+
+  
   ## Technologies 
   
     * JavaScript
@@ -67,7 +70,6 @@ function generateMarkdown(data) {
     * FS
   
  
-   ${renderLicenseSection(data)}
 
 
   ## Installation 
